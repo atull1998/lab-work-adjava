@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	.myform{
+	 width : 350px;
+	 margin : auto;
+	}
+	label{
+	font-weight: bold;
+	}
+	input{
+	width : 100%;
+	padding :10px 20px;
+	box-sizing :border-box;
+	border : 2px solid red;
+	border-radius : 4px;
+	}
+	
+</style>
+</head>
+<body>
+	<form action="RegisterServlet">
+		<div class="myform">
+			<div>
+				<label>Enter name</label> 
+				<input type="text" name="name" />
+			</div><br>
+			<div>
+				<label>Enter email id</label> 
+				<input type="text" name="email" />
+			</div><br>
+			<div>
+				<label>Enter mobile number</label> 
+				<input type="number" name="mobileNo" />
+			</div><br>
+			<div>
+				<label>Enter username</label> 
+				<input type="text" name="username" />
+			</div><br>
+			<div>
+				<label>Enter password</label> 
+				<input type="password" name="password" />
+			</div><br>
+			<div>
+				<label>Confirm password</label> 
+				<input type="password" name="password" />
+			</div><br>
+			<div>
+				<button type ="Submit">Register</button>
+			</div>
+		</div>
+	</form>
+
+</body>
+</html>
